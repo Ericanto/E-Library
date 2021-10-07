@@ -1,0 +1,248 @@
+
+/*
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+margin:0;
+padding:0;
+
+
+font-size:100%;
+vertical-align:baseline;
+background:transparent;
+
+}
+
+body {
+line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+display:block;
+}
+
+nav ul {
+list-style:none;
+}
+
+blockquote, q {
+quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+content:'';
+content:none;
+}
+
+a {
+margin:0;
+padding:0;
+font-size:115%;
+vertical-align:baseline;
+background:transparent;
+}
+
+
+ins {
+background-color:#ff9;
+color:#000;
+text-decoration:none;
+}
+
+
+mark {
+background-color:#ff9;
+color:#000; 
+font-style:italic;
+font-weight:bold;
+}
+
+del {
+text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+border-bottom:1px dotted;
+cursor:help;
+}
+
+table {
+border-collapse:collapse;
+border-spacing:0;
+}
+
+hr {
+display:block;
+height:1px;
+border:0; 
+border-top:1px solid #cccccc;
+margin:1em 0;
+padding:0;
+}
+
+input, select {
+vertical-align:middle;
+}
+*/
+
+/*-------------------------------Main code   INDEX ---------------------------------------------------------*/
+/*
+.wrapper
+{
+	height: 660px;
+	width: 1350px;
+	background-color: red;
+}
+header
+{
+	height: 130px;
+	width: 1500px;
+	background-color: black;
+	padding: 5px;
+
+}
+section
+{
+	height: 550px;
+
+	width: 1550px;
+	background-color: grey;
+}
+footer
+{
+	
+	width: 1550px;
+	background-color: black;
+}
+.logo
+{
+	float :left;
+	padding-left: 20px;
+
+}
+.logo img 
+{
+	padding-left: 80px;
+}
+
+li a
+{
+	color: white;
+	text-decoration: none;
+}
+nav
+{
+	float: right;
+	word-spacing: 30px;
+	padding: 20px;
+}
+nav li 
+{
+	display: inline-block;
+	line-height: 80px;
+}
+
+section .sec
+{
+	
+	background-image: url("images/alfons-morales-YLSwjSy7stw-unsplash.jpg");
+}
+.box
+{
+	height: 300px;
+	width: 450px;
+	text-align: center;
+	background-color: #030002;
+	margin: 70px auto;
+	opacity: .8;
+	color: white;
+}
+
+/*--------------------------------st_login-----------------------------*/
+
+.log_img
+{
+	height: 650px;
+	margin-top: 0px;
+	background-image: url("images/3.jpg");
+}
+.box1
+{
+	height: 450px;
+	width: 450px;
+	background-color: #030002;
+	margin: 70px auto;
+	opacity: .8;
+	color: white;
+	padding: 20px;
+
+}
+
+.box1 input[type="text"],.box1 input[type="password"]
+{
+
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #3498db;
+	padding: 14px 10px;
+	width: 200px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25s;
+}
+.box1 input[type="text"]:focus,.box1 input[type="password"]:focus
+{
+	width: 280px;
+	border-color: #2ecc71;
+}
+.box1 input[type="submit"]
+{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #2ecc71;
+	padding: 14px 40px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25s;
+	cursor: pointer;
+}
+.box1 input[type="submit"]:hover
+{
+	background: #2ecc71;
+}
+/*------------------------------registration--------------------*/
+.reg_img
+{
+	height: 630px;
+	margin-top: 0px;
+	background-image: url("images/4.png");
+}
+.box2
+{
+	height: 589px;
+	width: 450px;
+	background-color: black;
+	margin: 0px auto;
+	opacity: .7;
+	color: white;
+	padding: 20px;
+}
